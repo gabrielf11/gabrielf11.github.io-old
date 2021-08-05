@@ -1,0 +1,23 @@
+.h1-style {
+    color: rgb(0, 119, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    background-color: rgb(224, 248, 255); 
+    border-radius: 25px
+}
+.text-style {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button {
+    text-align: center;
+    
+}
+.h1-404-style {
+    color: rgb(255, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    background-color: rgb(255, 224, 224); 
+    border-radius: 25px
+}
