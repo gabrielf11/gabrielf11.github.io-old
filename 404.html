@@ -6,20 +6,34 @@
     <title>404</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
+<style>
+    body {
+        background-image: linear-gradient(rgb(255, 51, 0) 0%, white 70%);
+        margin: 50px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+</style>
+
 <body>
     <div class="animate__animated animate__fadeIn animate__faster">
-        <h1 class="h1-404-style">404</h1>
+        <h1 class="center-h1-style"><strong>404</strong></h1>
         <h2 class="text-style" style="text-align: center;">Yeah, somthing went wrong.</h2>
         <h3 class="text-style" style="text-align: center;">I have no idea what you were trying to do, but it didn't
             work.
         </h3>
+        <br>
+        <br>
         <div class="button">
-            <button onclick="location.href = 'index.html';"
-                style="border-color: cornflowerblue; background-color: cornflowerblue;">Take me home!</button>
+        <button type="button" class="btn btn-primary" onclick="location.href=('index.html')" style="border-radius: 25px; color: black;">Go Home</button>
         </div>
     </div>
 </body>
