@@ -27,8 +27,35 @@
     border-radius: 35px;
 }
 .h1-style {
-    font-size: 100px;
     text-align: center;
     word-wrap: break-word;
     width: 100%;
+}
+@media (max-width: 575.98px) {
+    body {
+        margin: 0px;
+    }
+    .navbar-style {
+        border-radius: 0px;
+    }
+    .h1-style {
+        font-size: 50px;
+    }
+    .center-mobile {
+        text-align: center;
+    }
+}
+@media (min-width: 575.98px) and (max-width: 10000px){
+    body {
+        margin: 50px;
+    }
+    .navbar-style {
+        border-radius: 25px;
+    }
+    .h1-style {
+        font-size: 100px;
+    }
+    .center-mobile {
+        text-align: unset;
+    }
 }
