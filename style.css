@@ -44,6 +44,9 @@
     .center-mobile {
         text-align: center;
     }
+    .show-on-mobile {
+        display: unset;
+    }
 }
 @media (min-width: 575.98px) and (max-width: 10000px){
     body {
@@ -57,5 +60,8 @@
     }
     .center-mobile {
         text-align: unset;
+    }
+    .show-on-mobile {
+        display: none;
     }
 }
