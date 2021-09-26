@@ -54,6 +54,19 @@
     box-shadow: 0 0 #4433ff;
     top: 5px;
 }
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 @media (max-width: 575.98px) {
     body {
         margin: 0px;
@@ -69,6 +82,9 @@
     }
     .show-on-mobile {
         display: unset;
+    }
+    .hide-on-mobile {
+        display: none;
     }
 }
 @media (min-width: 575.98px) and (max-width: 10000px){
@@ -86,6 +102,9 @@
     }
     .show-on-mobile {
         display: none;
+    }
+    .hide-on-mobile {
+        display: unset;
     }
 }
 @media (prefers-color-scheme: dark) {

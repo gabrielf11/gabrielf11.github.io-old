@@ -35,19 +35,20 @@
 </head>
 <style>
     @media (prefers-color-scheme: dark) {
-    body {
-      background-color: black;
-      color: rgb(255, 255, 255);
+        body {
+            background-color: black;
+            color: rgb(255, 255, 255);
+        }
     }
-  }
 
-  @media (prefers-color-scheme: light) {
-    body {
-      background-color: white;
-      color: black;
+    @media (prefers-color-scheme: light) {
+        body {
+            background-color: white;
+            color: black;
+        }
     }
-  }
 </style>
+
 <body class="center-mobile">
     <div class="animate__animated animate__fadeIn animate__faster">
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-style">
@@ -91,9 +92,8 @@
         <br>
         <h1 class="h1-style"><strong>I'm Bored</strong></h1>
         <h2 class="text-style" style="text-align: center;">A list of fun websites, videos, and more!</h2>
-        <h3 class="show-on-mobile text-style" style="background-color: yellow; border-radius:  5px;">Note: This page
-            doesn't look
-            great on mobile</h3>
+        <h3 class="text-style show-on-mobile" style="background-color: yellow; border-radius:  5px; color: black;">This
+            page looks a bit strange on mobile.</h3>
         <br>
         <ul class="list-group">
             <li class="list-group-item theme-color"><a href="im-bored.html#item-1">Websites</a></li>
@@ -299,30 +299,42 @@
     <br>
     <br>
     <hr>
+    <!-- Videos -->
     <h3 id="item-2" class="text-style"><strong>Videos</strong></h3>
     <br>
     <h3 class="text-style">Music Videos</h3>
     <br>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zvrplPm9Z3E"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DHwuV7K1eko"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Yw6u6YkTgQ4"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-JurP5uBww4"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0BWiMF8_v6M"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <div class="iframe-container">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zvrplPm9Z3E"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DHwuV7K1eko"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Yw6u6YkTgQ4"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-JurP5uBww4"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <div class="iframe-container">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0BWiMF8_v6M"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
     <br>
     <br>
     <br>
@@ -335,9 +347,13 @@
         below to
         submit somthing!</h4>
     <br>
+
     <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSdSruIdFQomUX1DFq7HMzjF9ugaidfOGrAcbnJj0XZbN3kSrw/viewform?embedded=true"
-        width="640" height="975" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        width="640" height="975" frameborder="0" marginheight="0" marginwidth="0"
+        class="hide-on-mobile">Loading…</iframe>
+    <a href="https://forms.gle/Powy8Nbk28n8Pnry8" class="show-on-mobile">Form</a>
+
     </div>
 </body>
 
