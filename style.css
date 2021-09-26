@@ -1,3 +1,4 @@
+/*
 .old-h1-style {
     color: rgb(0, 119, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -6,6 +7,8 @@
     background-color: rgb(224, 248, 255);
     border-radius: 25px;
 }
+Old, no longer in use, dunno why I saved it.
+*/
 .text-style {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -57,7 +60,7 @@
 .iframe-container{
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; 
+    padding-bottom: 56.25%;
     height: 0;
   }
 .iframe-container iframe{
