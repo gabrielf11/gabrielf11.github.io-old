@@ -16,9 +16,18 @@
 </head>
 
 <style>
-    body {
-        background-image: linear-gradient(rgb(255, 51, 0) 0%, white 100%);
-        background-repeat: no-repeat;
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: black;
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        body {
+            background-image: linear-gradient(rgb(255, 51, 0) 0%, white 100%);
+            background-repeat: no-repeat;
+        }
     }
 </style>
 
@@ -35,8 +44,8 @@
             <br>
             <br>
             <div class="button">
-                <button type="button" class="btn btn-outline-danger" onclick="location.href=('index.html')"
-                    style="border-radius: 15px; color: black;">Go Home</button>
+                <button type="button" class="btn btn-outline-danger theme-color" onclick="location.href=('index.html')"
+                    style="border-radius: 15px;">Go Home</button>
             </div>
         </div>
 </body>
