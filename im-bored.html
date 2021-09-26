@@ -33,7 +33,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    @media (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: rgb(255, 255, 255);
+    }
+  }
 
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: white;
+      color: black;
+    }
+  }
+</style>
 <body class="center-mobile">
     <div class="animate__animated animate__fadeIn animate__faster">
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-style">
@@ -82,9 +96,9 @@
             great on mobile</h3>
         <br>
         <ul class="list-group">
-            <li class="list-group-item"><a href="im-bored.html#item-1">Websites</a></li>
-            <li class="list-group-item"><a href="im-bored.html#item-2">Videos</a></li>
-            <li class="list-group-item"><a href="im-bored.html#item-3">Submit</a></li>
+            <li class="list-group-item theme-color"><a href="im-bored.html#item-1">Websites</a></li>
+            <li class="list-group-item theme-color"><a href="im-bored.html#item-2">Videos</a></li>
+            <li class="list-group-item theme-color"><a href="im-bored.html#item-3">Submit</a></li>
         </ul>
         <hr>
         <h3 id="item-1" class="text-style"><strong>Websites</strong></h3>
@@ -150,6 +164,13 @@
                     <h5 class="card-title">The Useless Web</h5>
                     <p class="card-text">Click a button to get a fun, and useless website!</p>
                     <a href="https://theuselessweb.com/" class="btn btn-primary">Click it!</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">National Day Today</h5>
+                    <p class="card-text">Find out what the national day is!</p>
+                    <a href="https://nationaltoday.com/what-is-today/" class="btn btn-primary">View</a>
                 </div>
             </div>
         </div>
