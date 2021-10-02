@@ -29,6 +29,9 @@ Old, no longer in use, dunno why I saved it.
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
+.dropdown-menu[data-bs-popper] {
+    margin-top: 10px;
+}
 .dropdown-item {
     background: rgba(255, 255, 255, 0);
 }
