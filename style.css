@@ -41,12 +41,29 @@ Old, no longer in use, dunno why I saved it.
 .navbar-burger-thing {
     border-radius: 15px;
 }
+.card {
+    background: rgba(255, 255, 255, 0.281);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    margin: 5px;
+}
+.list-group {
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+.list-group-item {
+    background: rgba(255, 255, 255, 0.432);
+}
 .h1-style {
     text-align: center;
     word-wrap: break-word;
     width: 100%;
 }
-  .css-button-3d--sky {
+.css-button-3d--sky {
     min-width: 130px;
     height: 40px;
     color: #fff;
@@ -62,11 +79,11 @@ Old, no longer in use, dunno why I saved it.
     background: #3a86ff;
     box-shadow: 0 5px #4433ff;
 }
-  .css-button-3d--sky:hover {
+.css-button-3d--sky:hover {
     box-shadow: 0 3px #4433ff;
     top: 1px;
 }
-  .css-button-3d--sky:active {
+.css-button-3d--sky:active {
     box-shadow: 0 0 #4433ff;
     top: 5px;
 }
@@ -124,20 +141,20 @@ Old, no longer in use, dunno why I saved it.
     }
 }
 @media (prefers-color-scheme: dark) {
-  .card {
+  /*.card {
     color: white;
     background-color: rgb(46, 46, 46);
-  }
+  } */
   .theme-color {
           color: rgb(255, 255, 255);
           background-color: rgb(46, 46, 46);
         }
 }
 @media (prefers-color-scheme: light) {
-    .card {
+/*.card {
       color: rgb(0, 0, 0);
       background-color: rgb(255, 255, 255);
-    }
+    } */
     .theme-color {
         color: rgb(0, 0, 0);
         background-color: rgb(255, 255, 255);
