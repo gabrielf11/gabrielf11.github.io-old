@@ -49,6 +49,10 @@ Old, no longer in use, dunno why I saved it.
     border-radius: 10px;
     margin: 5px;
 }
+.card-img-top {
+    border-radius: 10px; 
+    margin-top: 10px;
+}
 .list-group {
     box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
