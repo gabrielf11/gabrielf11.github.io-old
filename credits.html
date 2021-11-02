@@ -14,7 +14,21 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 </head>
+<style>
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: black;
+            color: rgb(255, 255, 255);
+        }
+    }
 
+    @media (prefers-color-scheme: light) {
+        body {
+            background-image: linear-gradient(rgb(0, 183, 255) 0%, white 45%);
+            background-repeat: no-repeat;
+        }
+    }
+</style>
 <body>
     <div class="animate__animated animate__fadeIn animate__faster">
         <!-- Navbar -->
