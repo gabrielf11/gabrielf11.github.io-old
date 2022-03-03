@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <title>Hexaflexagons</title>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
@@ -17,10 +18,13 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>QNA</title>
   </head>
   <style>
     @media (prefers-color-scheme: dark) {
@@ -32,12 +36,23 @@
 
     @media (prefers-color-scheme: light) {
       body {
-        background-image: linear-gradient(rgb(0, 183, 255) 0%, white 45%);
-        background-repeat: no-repeat;
+        background-color: white;
+        color: black;
+      }
+    }
+
+    @media (max-width: 575.98px) {
+      .please-no-corners-mobile {
+        border-radius: 0px;
+      }
+    }
+
+    @media (min-width: 575.98px) and (max-width: 10000px) {
+      .please-no-corners-mobile {
+        border-radius: 25px;
       }
     }
   </style>
-
   <body>
     <div class="animate__animated animate__fadeIn animate__faster">
       <!-- Navbar -->
@@ -159,73 +174,27 @@
       </nav>
       <!-- Navbar end -->
       <br />
-      <h1 class="h1-style"><strong>QNA</strong></h1>
+      <h1 class="h1-style"><strong>Hexaflexagons</strong></h1>
+      <p style="text-align: center">
+        <img
+          src="media/hexaflexagon.png"
+          alt="Hexaflexagon"
+          width="350"
+          height="350"
+          class="animate__animated animate__rotateIn"
+        />
+      </p>
+      <br />
+      <br />
+      <h2 class="text-style" style="text-align: center">
+        What's a Hexaflexagon? Basically it's an addictive paper hexagon thing.
+      </h2>
       <br />
       <br />
       <br />
-      <div class="text-style center-mobile">
-        <b>Q: Is this website down?</b>
-        <p>A: No.</p>
-      </div>
-      <br />
-      <br />
-      <div class="text-style center-mobile">
-        <b>Q: How was this website made?</b>
-        <p>
-          A: This webpage was made in HTML and CSS by GabrielF11. I also used
-          animate.css for the animations, and Bootstrap for more complicated
-          components like the navigation bar. Also, this webpage is hosted by
-          Github Pages.
-        </p>
-      </div>
-      <br />
-      <br />
-      <div class="text-style center-mobile">
-        <b
-          >Q: Why is the 404 page shown on a real existing page and is left
-          aligned with weird styling?</b
-        >
-        <p>
-          A: It usally happens when you have a / at the very end of the link. if
-          you remove it it should fix it. I have no idea why it's happening and
-          I'm too lazy to fix it.
-        </p>
-        <p>Q2: Ok...?</p>
-      </div>
-      <br />
-      <br />
-      <div class="text-style center-mobile">
-        <b>Q: Why does this website look so... bad</b>
-        <p>A: Because I coded it</p>
-      </div>
-      <br />
-      <br />
-      <div class="text-style center-mobile">
-        <b>Q: Why don't you just use a website builder</b>
-        <p>A: no</p>
-        <p>Q2: Why not?</p>
-        <p>A2: Because they cost money and I don't want to pay for them</p>
-        <p>Q3: What about the free-</p>
-        <p>A3: NO</p>
-        <p>Q4: WHY NOT</p>
-        <p>A4: They shove ads on your website, and you get weird links</p>
-        <p>Q4: fine.</p>
-      </div>
-      <br />
-      <br />
-      <div class="text-style center-mobile">
-        <b>Q: I have a question that's not on here</b>
-        <p>A: ok</p>
-        <p>Q2: ???</p>
-        <p>A2: I would put a box to ask one, but I don't know how</p>
-        <p>Q3: THAT'S WHY YOU SHOULD USE A WEBSITE BUILD-</p>
-        <p>A3: NO</p>
-        <p>Q4:*sigh* nevermind</p>
-      </div>
+      <h3 class="text-style" style="text-align: center">
+        I will add a guide to make one soon...
+      </h3>
     </div>
-    <script src="https://cdn.blobity.dev/by.js?licenseKey=opensource"></script>
-    <script>
-      const blobity = new Blobity({ dotColor: "#00b7ff" });
-    </script>
   </body>
 </html>
