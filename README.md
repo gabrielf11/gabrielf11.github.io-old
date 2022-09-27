@@ -1,4 +1,6 @@
-# [gabrielf11.ga](https://gabrielf11.ga/)
+# [gabrielf11.github.io](https://gabrielf11.github.io/)
+
+Website is being moved back to github.io domain and Freenom took away the old domain.
 
 This is a little website I made because I was bored.
 
